@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BarraNavegacionComponent } from './plantilla/barra-navegacion/barra-navegacion.component';
 import { PiePaginaComponent } from './plantilla/pie-pagina/pie-pagina.component';
+import { InicioComponent } from './plantilla/inicio/inicio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BarraNavegacionComponent,
-    PiePaginaComponent
+    PiePaginaComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,
